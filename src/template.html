@@ -8,7 +8,7 @@
   <body>
     <div class="container">
       <div class="header">
-        <h1>Weather App</h1>
+        <h1 id="title">Weather App</h1>
         <div class="search-bar">
           <input
             type="search"
@@ -24,11 +24,7 @@
           <h3 class="city-name">Białystok</h3>
           <div class="temp-desc">
             <h1 class="temp">27°C</h1>
-            <img
-              src="img/partly-cloudy-day.svg"
-              alt="icon representing current weather conditions"
-              class="conditions-icon"
-            />
+            <div id="conditions-icon" class="snow"></div>
             <h3 class="conditions">Partially cloudy</h3>
           </div>
           <div class="secondary-conditions">
@@ -37,24 +33,24 @@
                 src="img/mini-wind.svg"
                 alt="wind speed"
                 class="secondary-con-icon"
-              />2.5 m/s
-              <h3 class="wind-speed"></h3>
+              />
+              <p class="wind-speed">2.5 m/s</p>
             </div>
             <div>
               <img
                 src="img/humidity.svg"
                 alt="humidity"
                 class="secondary-con-icon"
-              />34%
-              <h3 class="humidity"></h3>
+              />
+              <p class="humidity">34%</p>
             </div>
             <div>
               <img
                 src="img/pressure.svg"
                 alt="pressure"
                 class="secondary-con-icon"
-              />600 mm Hg
-              <h3 class="athm-pressure"></h3>
+              />
+              <p class="athm-pressure">600 mm Hg</p>
             </div>
           </div>
           <div class="next-hours">

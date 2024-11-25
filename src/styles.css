@@ -134,13 +134,14 @@ input[type="search"]::-webkit-search-results-decoration {
   align-items: center;
 }
 
-.conditions-icon {
+#conditions-icon {
   width: 70px;
+  height: 70px;
 }
 
 .temp-desc {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -184,4 +185,58 @@ input[type="search"]::-webkit-search-results-decoration {
   align-items: center;
   border-top: 1px solid white;
   margin-top: 10px;
+}
+
+.snow {
+  background-image: url(img/snow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rain {
+  background-image: url(img/rain.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fog {
+  background-image: url(img/fog.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wind {
+  background-image: url(img/wind.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cloudy {
+  background-image: url(img/cloudy.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partly-cloudy-day {
+  background-image: url(img/partly-cloudy-day.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partly-cloudy-night {
+  background-image: url(img/partly-cloudy-night.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clear-day {
+  background-image: url(img/clear-day.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clear-night {
+  background-image: url(img/clear-night.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
