@@ -162,3 +162,26 @@ input[type="search"]::-webkit-search-results-decoration {
     brightness(103%) contrast(104%);
   height: 20px;
 }
+
+.next-hours-icon {
+  height: 30px;
+}
+
+.hour {
+  font-size: 0.9em;
+}
+
+.next-hour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.next-hours {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid white;
+  margin-top: 10px;
+}
