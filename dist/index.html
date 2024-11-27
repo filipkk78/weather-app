@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 id="title">Weather App</h1>
+        <div class="search-bar">
+          <input
+            type="search"
+            name="city"
+            id="city"
+            placeholder="Search your city"
+          />
+          <img src="54ff7732bb1a5ff166c6.svg" alt="search icon" class="search-icon" />
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="weather-card">
+          <h3 class="city-name">Białystok</h3>
+          <div class="temp-desc">
+            <h1 class="temp">27°C</h1>
+            <div id="conditions-icon" class="snow"></div>
+            <h3 class="conditions">Partially cloudy</h3>
+          </div>
+          <div class="secondary-conditions">
+            <div>
+              <img
+                src="0ca43ca7254de8de1c92.svg"
+                alt="wind speed"
+                class="secondary-con-icon"
+              />
+              <p class="wind-speed">2.5 m/s</p>
+            </div>
+            <div>
+              <img
+                src="fa50ad960c24c106d290.svg"
+                alt="humidity"
+                class="secondary-con-icon"
+              />
+              <p class="humidity">34%</p>
+            </div>
+            <div>
+              <img
+                src="c31213d47668cd245c47.svg"
+                alt="pressure"
+                class="secondary-con-icon"
+              />
+              <p class="athm-pressure">600 mm Hg</p>
+            </div>
+          </div>
+          <div class="hour-carousel">
+            <div class="carousel-arrow" id="carousel-arrow-placeholder-left"></div>
+            <div class="carousel-arrow" id="carousel-arrow-left"></div>
+            <div class="next-hours">
+              <div class="next-hour" id="nextHour0">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour1">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour2">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour3">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour4">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour5">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour6">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour7">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour8">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour9">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour10">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour11">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour12">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour13">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour14">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour15">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour16">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour17">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour18">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour19">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour20">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour21">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour22">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+              <div class="next-hour" id="nextHour23">
+                <p class="hour"></p>
+                <div class="hour-icon"></div>
+                <h3></h3>
+              </div>
+            </div>
+            <div class="carousel-arrow" id="carousel-arrow-right"></div>
+            <div class="carousel-arrow" id="carousel-arrow-placeholder-right"></div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar"></div>
+    </div>
+  </body>
+</html>
