@@ -78,6 +78,9 @@ h6 {
   width: 500px;
   display: grid;
   grid-template-rows: 1fr 4fr 1fr 5fr;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .main-content {
